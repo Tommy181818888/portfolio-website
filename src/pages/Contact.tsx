@@ -54,7 +54,7 @@ export function Contact() {
               <img src="src/Pictures/Profile.jpeg" alt="Amit Shetty" className="w-14 h-14 rounded-full object-cover border border-border" />
               <div>
                 <div className="font-medium text-text-primary">Amit Shetty</div>
-                <div className="text-text-muted text-sm">Data Analyst • Web Developer • UI / Product Designer</div>
+                <div className="text-text-muted text-sm">Data Analyst • Web Developer • UI / Product Designer / Degital Marketing / Deep Researcher</div>
               </div>
             </div>
 
@@ -69,19 +69,19 @@ export function Contact() {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-text-muted" />
-                <span>Mumbai, India</span>
+                <span>Karnataka, India</span>
               </div>
 
               <div>
                 <strong className="text-text-primary">Availability:</strong>
-                <span className="ml-2">Freelance · Contract · Full-time</span>
+                <span className="ml-2">Freelance · Contract · Part-time</span>
               </div>
 
               <div>
                 <strong className="text-text-primary">Services I offer:</strong>
                 <ul className="list-disc list-inside mt-1 text-text-secondary">
-                  <li>Data analysis & visualization — dashboards, reports, KPI tracking</li>
-                  <li>Machine learning & production ML pipelines</li>
+                  <li>Data analysis & visualization — PPT, dashboards, reports, KPI tracking</li>
+                 
                   <li>Web development (React, TypeScript, responsive UIs)</li>
                   <li>UI / product design, prototyping and user flows</li>
                   <li>Dashboard creation (Tableau, Power BI, custom React dashboards)</li>

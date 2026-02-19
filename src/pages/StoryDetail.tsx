@@ -38,7 +38,7 @@ export function StoryDetail() {
     const contents: Record<string, { content: string; readTime: string }> = {
       '1': {
         content: `
-# National Cadet Corps | Started #3
+# National Cadet Corps | First Step
 
 My journey with the National Cadet Corps began in 2022, marking the start of a transformative experience that shaped my leadership skills and discipline.
 
@@ -48,10 +48,11 @@ Joining NCC was one of the most significant decisions I made during my college y
 
 ## Key Learnings
 
-- **Discipline**: The structured environment taught me the importance of punctuality and organization
-- **Teamwork**: Working with diverse groups of cadets from different backgrounds
-- **Leadership**: Taking on responsibilities and guiding fellow cadets
-- **Physical Fitness**: Maintaining peak physical condition through regular training
+- Discipline: The structured environment taught me the importance of punctuality and organization
+- Teamwork: Working with diverse groups of cadets from different backgrounds
+- Leadership: Taking on responsibilities and guiding fellow cadets
+- Attended 2 state lvl ARMY Camp's
+- Achieved NCC C Certificate from & KAr & GOA Directorate
 
 ## Achievements
 
@@ -102,10 +103,10 @@ The idea was born from observing the growing trend of sustainable fashion and th
 
 ## Building from Scratch
 
-- **Market Research**: Understanding local demand and competition
-- **Sourcing**: Establishing relationships with suppliers and donors
-- **Operations**: Setting up the physical store and online presence
-- **Marketing**: Building brand awareness and customer loyalty
+-Market Research: Understanding local demand and competition
+- Sourcing: Establishing relationships with suppliers and donors
+- Operations: Setting up the physical store and online presence
+- Marketing: Building brand awareness and customer loyalty
 
 ## Challenges Faced
 
@@ -131,10 +132,10 @@ The Bachelor of Computer Applications program challenged me in numerous ways, fr
 
 ## Key Achievements
 
-- **Consistent Performance**: Maintaining high grades throughout the program
-- **Project Work**: Developing innovative solutions and applications
-- **Research**: Contributing to academic projects and papers
-- **Leadership**: Taking active roles in student organizations
+- Consistent Performance**: Maintaining high grades throughout the program
+- Project Work: Developing innovative solutions and applications
+- Research: Contributing to academic projects and papers
+- Leadership: Taking active roles in student organizations
 
 ## The Gold Medal Moment
 
@@ -158,10 +159,10 @@ Starting as a fresh graduate, TCS provided the perfect platform to apply my acad
 
 ## Learning & Growth
 
-- **Technology Stack**: Working with cutting-edge technologies and frameworks
-- **Project Management**: Understanding SDLC and agile methodologies
-- **Client Interaction**: Developing communication and presentation skills
-- **Team Collaboration**: Working in diverse, global teams
+- Technology Stack: Working with cutting-edge technologies and frameworks
+- Project Management: Understanding SDLC and agile methodologies
+- Client Interaction: Developing communication and presentation skills
+- Team Collaboration: Working in diverse, global teams
 
 ## Key Projects
 

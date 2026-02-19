@@ -251,7 +251,6 @@ export const featuredProjects = [
 export const footerLinks = [
   { name: 'GitHub', url: 'https://github.com/Amit-Shatagar', icon: 'Github' },
   { name: 'Portfolio', url: '/', icon: 'Home' },
-  { name: 'Twitter', url: 'https://twitter.com/amitshetty18', icon: 'Twitter' },
   { name: 'Instagram', url: 'https://www.instagram.com/amit_shetty___', icon: 'Instagram' },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/amitshetty18', icon: 'Linkedin' }
 ];

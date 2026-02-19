@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Github, Linkedin, Instagram } from 'lucide-react';
 import { PageHeader } from '@/components/shared/PageHeader';
 import { TimelineItem } from '@/components/shared/TimelineItem';
 import { timelineEvents } from '@/lib/data';
 
 const socialButtons = [
-  { name: 'Twitter', url: 'https://twitter.com/realvjy', icon: Twitter, color: 'from-blue-400 to-blue-500' },
+  { name: 'GitHub', url: 'https://github.com/Amit-Shatagar', icon: Github, color: 'from-gray-700 to-gray-900' },
   { name: 'LinkedIn', url: 'https://linkedin.com/in/realvjy', icon: Linkedin, color: 'from-blue-600 to-blue-700' },
   { name: 'Instagram', url: 'https://instagram.com/realvjy', icon: Instagram, color: 'from-pink-500 to-rose-500' },
 ];
@@ -15,7 +15,7 @@ export function Timeline() {
     <div className="min-h-screen">
       <PageHeader
         title="Timeline"
-        description="The linear view of some milestones and notable moments that happened so far (151 key moments). And you can always find more information on Twitter and LinkedIn."
+        description="The linear view of some milestones and notable moments that happened so far (151 key moments). And you can always find more information on GitHub and LinkedIn."
       />
       
       {/* Social Buttons */}

@@ -21,8 +21,8 @@ export function HeroSection() {
           Hi, I'm{' '}
           <span className="inline-flex items-center align-middle mx-1">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=96&h=96&fit=crop&crop=face"
-              alt="Vijay Verma"
+              src="src/Pictures/Profile.jpeg"
+              alt="Amit Shetty"
               className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover inline-block border-2 border-white dark:border-gray-800 shadow-md"
             />
           </span>{' '}

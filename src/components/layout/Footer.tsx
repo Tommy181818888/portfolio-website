@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { footerLinks } from '@/lib/data';
-import { Sparkles, Github, Home, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Sparkles, Github, Home, Instagram, Linkedin } from 'lucide-react';
 
 const iconMap = {
   Github,
   Home,
-  Twitter,
+  
   Instagram,
   Linkedin
 };

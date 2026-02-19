@@ -11,6 +11,7 @@ import { StoryDetail } from '@/pages/StoryDetail';
 import { Stack } from '@/pages/Stack';
 import { Links } from '@/pages/Links';
 import { Timeline } from '@/pages/Timeline';
+import { Contact } from '@/pages/Contact';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               <Route path="/story/:id" element={<StoryDetail />} />
               <Route path="/stack" element={<Stack />} />
               <Route path="/links" element={<Links />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="/timeline" element={<Timeline />} />
             </Routes>
           </main>

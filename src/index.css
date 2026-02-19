@@ -101,6 +101,15 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
+  /* Elegant typography: headings use Playfair Display, script for accents */
+  .font-serif, h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  }
+
+  .font-script {
+    font-family: 'Dancing Script', cursive;
+  }
   
   .line-clamp-2 {
     display: -webkit-box;
@@ -156,6 +165,13 @@
   }
 
   .neon-glass > * { position: relative; z-index: 1; }
+
+  /* Ensure profile image files render as perfect circles and cover their box */
+  img[src*="Profile"] {
+    border-radius: 9999px;
+    object-fit: cover;
+    display: inline-block;
+  }
 }
 
 /* Custom scrollbar */
