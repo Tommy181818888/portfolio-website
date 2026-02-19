@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Box, Mail, Palette, Instagram, Linkedin, Github, BookOpen } from 'lucide-react';
+import { ExternalLink, Box, Mail, Palette, Instagram, Linkedin, Github, BookOpen, Phone, MapPin } from 'lucide-react';
 
 const iconMap: Record<string, React.ElementType> = {
   Box,
@@ -87,6 +87,8 @@ export function Links() {
               );
             })}
           </motion.div>
+
+          {/* Contact moved to dedicated Contact page */}
 
           {/* Featured Projects */}
           <motion.div

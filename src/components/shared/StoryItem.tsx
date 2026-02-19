@@ -30,7 +30,7 @@ export function StoryItem({ story, index = 0 }: StoryItemProps) {
         <div className="flex items-start justify-between gap-4">
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 mb-1.5">
-              <span className="text-text-muted text-xs">{story.date}</span>
+              <span className="text-text-muted text-xs w-32 flex-shrink-0">{story.date}</span>
               <span className="text-border">&bull;</span>
               <span className={`text-[10px] uppercase font-medium px-2 py-0.5 rounded-full ${categoryColors[story.category] || 'bg-muted text-text-muted'}`}>
                 {story.category}

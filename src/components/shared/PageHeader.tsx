@@ -3,12 +3,12 @@ import { DecorativeDivider } from './DecorativeDivider';
 
 interface PageHeaderProps {
   title: string;
-  description?: string;
+  description?: React.ReactNode;
   children?: React.ReactNode;
 }
 
 export function PageHeader({ title, description, children }: PageHeaderProps) {
-  return (
+  return ( 
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -19,9 +19,13 @@ export function PageHeader({ title, description, children }: PageHeaderProps) {
         {title}
       </h1>
       {description && (
-        <p className="text-text-secondary max-w-lg mx-auto mb-6 text-base">
-          {description}
-        </p>
+        <div className="max-w-lg mx-auto mb-6">
+          {typeof description === 'string' ? (
+            <p className="text-text-secondary text-base">{description}</p>
+          ) : (
+            description
+          )}
+        </div>
       )}
       <DecorativeDivider />
       {children}

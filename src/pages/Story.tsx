@@ -17,6 +17,16 @@ export function Story() {
   const [loading, setLoading] = useState(false);
   const [hasMore, setHasMore] = useState(true);
 
+  const truncateWords = (text: string, maxWords = 40) => {
+    const words = text.split(/\s+/).filter(Boolean);
+    if (words.length <= maxWords) return words.join(' ');
+    return words.slice(0, maxWords).join(' ') + '...';
+  };
+
+  const fullDescription = `Welcome to story section, It's not story it's feelings From NCC trainee to Lance Corporal leader; I launched a thrift-store startup, earned the University Gold Medal (BCA), and progressed into professional data work—building impactful analytics and ML solutions.`;
+
+  const shortDescription = truncateWords(fullDescription, 40);
+
   const loadMore = () => {
     setLoading(true);
     setTimeout(() => {
@@ -35,19 +45,7 @@ export function Story() {
     <div className="min-h-screen">
       <PageHeader
         title="Story"
-        description="Welcome to my Stories section, where I share the journey of transforming raw data into meaningful insights. Here, you'll discover comprehensive case studies from my data analytics projects, detailed walkthroughs of complex data challenges I've solved, and the methodologies that drive successful business intelligence implementations.
-
-In these stories, you'll find real-world applications of statistical analysis, machine learning models, and data visualization techniques. Each narrative explores the problem-solving process - from initial data exploration and hypothesis formulation to model development, validation, and deployment. I share the technical decisions, challenges faced, and innovative solutions that led to actionable business outcomes.
-
-You'll learn about predictive analytics implementations, customer segmentation strategies, revenue optimization models, and fraud detection systems. My stories cover the entire data pipeline: data collection and cleaning, feature engineering, algorithm selection, performance evaluation, and production deployment.
-
-Beyond technical implementations, these stories highlight the business impact of data-driven decisions. You'll see how data analytics influences strategic planning, operational efficiency, customer experience, and competitive advantage. Each case study demonstrates the ROI of analytics investments and the measurable improvements in key performance indicators.
-
-I also share insights into emerging technologies and their practical applications. From cloud-based analytics platforms to automated machine learning tools, you'll stay updated on the latest trends shaping the data analytics landscape. My stories include code snippets, data visualizations, and architectural diagrams to provide complete technical context.
-
-Whether you're a fellow data professional, a business stakeholder, or someone exploring data analytics, these stories offer valuable lessons in methodology, best practices, and real-world problem-solving. They showcase the power of data to drive innovation, optimize operations, and create competitive advantages in today's data-driven business environment.
-
-Explore the intersection of technology and business strategy through my detailed project narratives, technical deep-dives, and lessons learned from implementing analytics solutions across various industries."
+        description={<p className="neon-text text-center">{shortDescription}</p>}
       />
       
       {/* Social Buttons */}

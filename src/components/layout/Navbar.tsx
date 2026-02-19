@@ -19,12 +19,9 @@ const navLinks = [
 
 const moreLinks = [
   { name: 'links', href: '/links' },
-  { name: 'supporters', href: '#' },
-  { name: 'bookshelf', href: '#' },
   { name: 'tech stack', href: '/stack' },
   { name: 'photos', href: '#' },
-  { name: 'version', href: '#' },
-  { name: 'this uikit', href: '#' },
+  { name: 'contact', href: '/contact' },
 ];
 
 export function Navbar() {
