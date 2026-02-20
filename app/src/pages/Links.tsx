@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Box, Mail, Palette, Instagram, Linkedin, Github, BookOpen, Phone, MapPin } from 'lucide-react';
+import { ExternalLink, Box, Mail, Palette, Instagram, Linkedin, Github, BookOpen } from 'lucide-react';
 
 const iconMap: Record<string, React.ElementType> = {
   Box,
